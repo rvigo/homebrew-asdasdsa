@@ -1,7 +1,7 @@
 # typed: false
 # frozen_string_literal: true
 
-class asdasdsa < Formula
+class Adasdsa < Formula
   homepage "https://github.com/rvigo/asdasdsa"
   version "0.0.0"
 
