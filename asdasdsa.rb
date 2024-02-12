@@ -5,6 +5,7 @@ class Asdasdsa < Formula
   desc "asdasdsa" 
   homepage "https://github.com/rvigo/asdasdsa"
   version "0.0.0"
+  revision
 
   on_macos do
     if Hardware::CPU.arm?
