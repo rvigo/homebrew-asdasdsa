@@ -4,12 +4,12 @@
 class Asdasdsa < Formula
   desc "asdasdsa" 
   homepage "https://github.com/rvigo/asdasdsa"
-  version "0.0.2"
+  version "9.9.9"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v0.0.2.tar.gz"
-      sha256 "63a1547c494d8a111c006204aa4e348c20b10b79c49dbb46063215da8b898306"
+      url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v9.9.9.tar.gz"
+      sha256 "5303fbc9434009e13abe38732f56970b264f37960bb988b68afb962f0316f986"
 
       def install
        bin.install "asdasdsa"
