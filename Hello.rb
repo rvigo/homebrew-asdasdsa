@@ -25,6 +25,6 @@ class  < Formula
     end
 
     test do
-        echo &quot;Hello, World!&quot;
+        echo \&quot;Hello, World!\&quot;
     end
 end
