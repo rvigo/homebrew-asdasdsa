@@ -6,18 +6,13 @@
 class  < Formula
     desc "B"
     homepage "https://example.com"
-    license "MIT"
     version "[object]"
+    license "MIT"
+    url "https://github.com/rvigo/asdasdsa/releases/download/v9.9.10/rustreleaser_v9.9.10.tar.gz"
+    hash "98ff72af8d8aa67c7299be128ae714c4e017dfc6c5b6201d0f7b9cb9e6f0dd7a"
 
-    on_linux do
-        if Hardware::CPU.intel?
-            url "https://github.com/rvigo/asdasdsa/releases/download/v9.9.10/rustreleaser_v9.9.10_x86_64_unknown-linux-gnu.tar.gz"
-            hash "54f8fe57a7f1df4705c9e11af66a8a35e6695519d6bfe19610c8e86bec9d35ae"
-
-            def install
-                "This is a test formula"
-            end
-        end
+    def install
+        "This is a test formula"
     end
 
     def caveats
