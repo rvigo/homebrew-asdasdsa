@@ -7,7 +7,7 @@ class  < Formula
     desc "B"
     homepage "https://example.com"
     license "MIT"
-    version "v9.9.9"
+    version "[object]"
 
     on_linux do
         if Hardware::CPU.intel?
@@ -25,6 +25,6 @@ class  < Formula
     end
 
     test do
-        echo \&quot;Hello, World!\&quot;
+        echo &quot;Hello, World!&quot;
     end
 end
