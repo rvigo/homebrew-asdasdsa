@@ -6,7 +6,7 @@
 class  < Formula
     desc "B"
     homepage "https://example.com"
-    version "[object]"
+    version ""
     license "MIT"
     url "https://github.com/rvigo/asdasdsa/releases/download/v9.9.10/rustreleaser_v9.9.10.tar.gz"
     hash "98ff72af8d8aa67c7299be128ae714c4e017dfc6c5b6201d0f7b9cb9e6f0dd7a"
