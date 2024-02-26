@@ -12,7 +12,7 @@ class  < Formula
     hash "98ff72af8d8aa67c7299be128ae714c4e017dfc6c5b6201d0f7b9cb9e6f0dd7a"
 
     def install
-        "This is a test formula"
+        "bin.install &quot;hello&quot;"
     end
 
     def caveats
