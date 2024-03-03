@@ -12,6 +12,6 @@ class Asdasdsa < Formula
     hash "e3ab0ecaa6d0b5a86ef7b80e8f61435f741cba257e0d6acf4b71e3a2a23665c1"
 
     def install
-        "bin.install asdasdsa"
+        bin.install &quot;asdasdsa&quot;
     end
 end
