@@ -6,9 +6,9 @@
 class Asdasdsa < Formula
     desc "brew formula"
     homepage "https://github.com/rvigo/asdasdsa"
-    version "v2.0.0"
+    version "9.9.9"
     license "MIT"
-    url "https://github.com/rvigo/asdasdsa/releases/download/v2.0.0/asdasdsa_v2.0.0.tar.gz"
+    url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v9.9.9.tar.gz"
     hash "e3ab0ecaa6d0b5a86ef7b80e8f61435f741cba257e0d6acf4b71e3a2a23665c1"
 
     def install
