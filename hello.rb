@@ -9,7 +9,7 @@ class Hello < Formula
     version "v9.9.9"
     license "MIT"
     url "https://github.com/rvigo/asdasdsa/releases/download/v9.9.9/rustreleaser_v9.9.9.tar.gz"
-    hash "571a326040850c9a939eeda0c462d68885b247e08c6afeb61632d66605a770b7"
+    hash "ee8484a54763ca970625d7d8394143a606a905e8de5d022ffc56c4b33cca3b48"
 
     def install
        bin.install "hello"
