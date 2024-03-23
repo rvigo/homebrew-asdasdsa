@@ -6,26 +6,13 @@
 class Hello < Formula
     desc "B"
     homepage "https://example.com"
-    license "MIT"
     version "v9.9.9"
+    license "MIT"
+    url "https://github.com/rvigo/asdasdsa/releases/download/v9.9.9/rustreleaser_v9.9.9.tar.gz"
+    hash "571a326040850c9a939eeda0c462d68885b247e08c6afeb61632d66605a770b7"
 
-    on_linux do
-        if Hardware::CPU.intel?
-            url "https://github.com/rvigo/asdasdsa/releases/download/v9.9.9/rustreleaser"
-            hash "d5536eadae8eb7ed752ea018c6459c6362aaf0414cd0abf9d0b856f93c66b135"
-
-            def install
-                "bin.install &quot;hello&quot;"
-            end
-        end
-        if Hardware::CPU.arm?
-            url "https://github.com/rvigo/asdasdsa/releases/download/v9.9.9/rustreleaser123124"
-            hash "16593fcb07736d8eefe6dd9bc8430a2cc89d9a1131f21c0f1d8752592a9d69dd"
-
-            def install
-                "bin.install &quot;hello&quot;"
-            end
-        end
+    def install
+       bin.install "hello"
     end
 
     def caveats
@@ -33,6 +20,6 @@ class Hello < Formula
     end
 
     test do
-        echo &quot;Hello, World!&quot;
+        echo "Hello, World!"
     end
 end
