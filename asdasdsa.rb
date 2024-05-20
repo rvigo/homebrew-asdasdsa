@@ -8,8 +8,8 @@ class Asdasdsa < Formula
     homepage "https://github.com/rvigo/asdasdsa"
     version "v1.1.9"
     license "MIT"
-    url ""
-    hash ""
+    url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.9/asdasdsa"
+    hash "c8e3f2bbe79f53b2c9ccbae3c5a10285b91ce79c877450f332924260c8ea7532"
 
     def install
        bin.install "asdasdsa"
