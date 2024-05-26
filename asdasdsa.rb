@@ -8,8 +8,8 @@ class Asdasdsa < Formula
     homepage "https://github.com/rvigo/asdasdsa"
     version "v1.1.7"
     license "MIT"
-    url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.7/asdasdsa-x86_64-unknown-linux-gnu"
-    sha256 "6ea524558a1602aaa9883db0ba930ee5a54ec46c36329a062e31923af7323a95"
+    url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.7/asdasdsa-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "d8791757e26c020e322c9c09668311e7a0a5bc6e5638e8a49fb021f27cf8be53"
 
     def install
        bin.install "asdasdsa"
