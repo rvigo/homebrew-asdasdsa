@@ -6,12 +6,26 @@
 class Asdasdsa < Formula
     desc "brew formula"
     homepage "https://github.com/rvigo/asdasdsa"
-    version "v1.1.7"
     license "MIT"
-    url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.7/asdasdsa-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "2a6e2974fcad51bb241db3a6e1959e9360b4d02dbfb844dffdfda7444d919f46"
+    version "v1.1.9"
 
-    def install
-       bin.install "asdasdsa"
+    on_linux do
+        if Hardware::CPU.intel?
+            url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.9/asdasdsa-v1.1.9-x86_64-linux.tar.gz"
+            sha256 "481c1a281f2bd33fba4dafd25cbbb1cb70d5c1c2205b0e287bda1cc22e3a541a"
+
+            def install
+                bin.install "asdasdsa"
+            end
+        end
+    end
+    on_macos do
+        if Hardware::CPU.arm?
+            url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.9/asdasdsa-v1.1.9-aarch64-apple.tar.gz"
+            sha256 "9c663e190cda76c993f3955740edd44cdabb890d1f1daf3de44f7d1dbc6ba228"
+
+            def install
+                bin.install "asdasdsa"
+            end
     end
 end
