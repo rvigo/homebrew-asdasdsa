@@ -12,7 +12,7 @@ class Asdasdsa < Formula
     on_linux do
         if Hardware::CPU.intel?
             url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.9/asdasdsa-v1.1.9-x86_64-linux.tar.gz"
-            sha256 "02f2a206f7127e2bf7e3ff406ba6fbce6b0b1e03b3928586bfe15dda48c84330"
+            sha256 "f7e2fac71106edec37967f1561de03944f97aec927cdd6dbb9b1e9ad6c71499c"
 
             def install
                 bin.install "asdasdsa"
@@ -22,7 +22,7 @@ class Asdasdsa < Formula
     on_macos do
         if Hardware::CPU.arm?
             url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.9/asdasdsa-v1.1.9-aarch64-apple.tar.gz"
-            sha256 "44e7b4c1ca13876e14d9cd2baab35727a8375cda818b6610bbcb98c59c4dce5f"
+            sha256 "a0348765cbbe03fd6d82ff47e54752cf2bdff3aecf0de596aab5ff2efd735bff"
 
             def install
                 bin.install "asdasdsa"
