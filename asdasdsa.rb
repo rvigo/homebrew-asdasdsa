@@ -9,7 +9,7 @@ class Asdasdsa < Formula
     version "v1.1.7"
     license "MIT"
     url "https://github.com/rvigo/asdasdsa/releases/download/v1.1.7/asdasdsa-x86_64-unknown-linux-gnu"
-    sha256 "865fb739dffe3cbc3159a5bb43ff3d14393edc471f8cf21f80b2ae503b5ae66e"
+    sha256 "6ea524558a1602aaa9883db0ba930ee5a54ec46c36329a062e31923af7323a95"
 
     def install
        bin.install "asdasdsa"
