@@ -13,6 +13,6 @@ class Test < Formula
     depends_on "rust" => :build
     
     def install
-        system "cargo", "--config", "bin.name=asdasdsa-beta", "install", *std_cargo_args
+        system "cargo", "--config", "'bin.name=asdasdsa-beta'", "install", *std_cargo_args
     end
 end
