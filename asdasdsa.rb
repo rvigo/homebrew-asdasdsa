@@ -8,6 +8,7 @@ class Asdasdsa < Formula
     homepage "https://github.com/rvigo/asdasdsa"
     license "MIT"
     version "v1.2.0"
+    head "https://github.com/rvigo/asdasdsa.git", branch: "main"
 
     on_linux do
         if Hardware::CPU.intel?
