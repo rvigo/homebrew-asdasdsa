@@ -7,8 +7,7 @@ class Asdasdsa < Formula
   desc "Brew formula"
   homepage "https://github.com/rvigo/asdasdsa"
   license "MIT"
-  url "https://github.com/rvigo/asdasdsa/releases/download/v1.2.0/asdasdsa-v1.2.0-x86_64-linux.tar.gz"
-  version "1.2.0"
+  url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v1.2.0.tar.gz"
   sha256 "935770ec1406178c5f15feae706d98451cbf2e01a1ae8bd6a5251ebbd5487ab9"
   head "https://github.com/rvigo/asdasdsa.git", branch: "main"
 
