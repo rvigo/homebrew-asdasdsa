@@ -11,6 +11,12 @@ class Asdasdsa < Formula
   license "MIT"
   head "https://github.com/rvigo/asdasdsa.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/rvigo/homebrew-asdasdsa/releases/download/asdasdsa-1.2.0"
+    sha256 cellar: :any_skip_relocation, ventura:      "98b99eb7c670f20e2b2bdc16be78df96eb8979380b66ace4440818e1248bf4f0"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "018d9cb16413f38bb5c5e7904e6e38f5f2d95752851454e6d8ea29a8e948f618"
+  end
+
   depends_on "rust" => :build
 
   def install
