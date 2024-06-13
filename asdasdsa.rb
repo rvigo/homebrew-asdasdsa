@@ -11,6 +11,8 @@ class Asdasdsa < Formula
   license "MIT"
   head "https://github.com/rvigo/asdasdsa.git", branch: "main"
 
+  depends_on "rust" => :build
+
   def install
     system "cargo", "install", *std_cargo_args
   end
