@@ -10,24 +10,7 @@ class Asdasdsa < Formula
     version "v1.2.0"
     head "https://github.com/rvigo/asdasdsa.git", branch: "main"
 
-    on_linux do
-        if Hardware::CPU.intel?
-            url "https://github.com/rvigo/asdasdsa/releases/download/v1.2.0/asdasdsa-v1.2.0-x86_64-linux.tar.gz"
-            sha256 "935770ec1406178c5f15feae706d98451cbf2e01a1ae8bd6a5251ebbd5487ab9"
-
-            def install
-                bin.install "asdasdsa"
-            end
-        end
-    end
-    on_macos do
-        if Hardware::CPU.arm?
-            url "https://github.com/rvigo/asdasdsa/releases/download/v1.2.0/asdasdsa-v1.2.0-aarch64-apple.tar.gz"
-            sha256 "045d1827119d9e64620a2a520382b1e1facfb508938a2dfdd18dc4f227f426dd"
-
-            def install
-                bin.install "asdasdsa"
-            end
-        end
+   def install
+        system "cargo", "install", *std_cargo_args
     end
 end
