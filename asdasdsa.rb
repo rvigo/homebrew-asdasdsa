@@ -6,20 +6,12 @@
 class Asdasdsa < Formula
   desc "Brew formula"
   homepage "https://github.com/rvigo/asdasdsa"
-  url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "0fba704728ceb263a2837bfa5485cea07e36455644edff246ff5be3865bc44cb"
+  url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v1.2.1.tar.gz"
+  version "1.2.1"
+  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   license "MIT"
   head "https://github.com/rvigo/asdasdsa.git", branch: "main"
-
-  bottle do
-    root_url "https://github.com/rvigo/homebrew-asdasdsa/releases/download/asdasdsa-1.2.0"
-    sha256 cellar: :any_skip_relocation, ventura:      "98b99eb7c670f20e2b2bdc16be78df96eb8979380b66ace4440818e1248bf4f0"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "018d9cb16413f38bb5c5e7904e6e38f5f2d95752851454e6d8ea29a8e948f618"
-  end
-
-  depends_on "rust" => :build
-
   def install
-    system "cargo", "install", *std_cargo_args
+     bin.install "asdasdsa"
   end
 end
