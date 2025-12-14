@@ -6,7 +6,7 @@
 class Asdasdsa < Formula
   desc "Brew formula"
   homepage "https://github.com/rvigo/asdasdsa"
-  url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v1.2.2.tar.gz"
+  url "https://github.com/rvigo/asdasdsa/archive/refs/tags/v1.2.3.tar.gz"
   sha256 "8ac4fae4df21da281ce790f544cccce75056acdb139be4e280374d11b23d43d0"
   license "MIT"
   head "https://github.com/rvigo/asdasdsa.git", branch: "main"
