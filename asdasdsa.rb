@@ -12,9 +12,9 @@ class Asdasdsa < Formula
   head "https://github.com/rvigo/asdasdsa.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/rvigo/homebrew-asdasdsa/releases/download/asdasdsa-1.2.3"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "32248c3f4e418cab4496043f9c6750b641db052e12c0d54b7b83944c6f28b26d"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "33350c78090ca995b37e44b9968f2a404965f3d0c1e55d2220e3ccd87531b521"
+    root_url "https://github.com/rvigo/homebrew-asdasdsa/releases/download/asdasdsa-1.2.5"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "12c576968602012a4aead1530291753327f7da7a562af844e8630aba87347a77"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "d6610003a837b1079cb752852e0657f234af5c629b59d6970a21c9a986eb8dac"
   end
 
   depends_on "rust" => :build
